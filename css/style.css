@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'arial';
+    color:yellow;
+    font-size: 15px;
+    line-height: 1.5em;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+    height: vh;
+    margin: auto;
+}
+.titleBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: yellow;
+    border-style: solid;
+    margin-top: 1em;
+    height: 5vh;
+}
+
+.messages{
+    display: flex;
+    align-items:flex-end;
+    border-color: yellow;
+    border-style: solid;
+    margin-top: 1em;
+    height: 50vh;
+    padding: 2em;
+}
+
+.message{
+    margin-top: .5em;
+    list-style: none;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    height: 10vh;
+}
+
+#utilisateur {
+    width: 25%;
+}
+
+#message {
+    width: 55%;
+}
